@@ -1,0 +1,30 @@
+package com.lotontech.mail;
+import javax.mail.*;
+import javax.mail.internet.*;
+import java.util.*;
+/**
+  * A simple email sender class.
+  */
+public class SimpleSender
+{
+  /**
+    * Main method to send a message given on the command line.
+    */
+  public static void main(String args[])
+  {
+    try
+    {
+      String smtpServer=args[0];
+      String to=args[1];
+      String from=args[2];
+      String subject=args[3];
+      String body=args[4];
+      send(smtpServer, to, from, subject, body);
+    }
+    catch (Exception ex)
+    {
+      System.out.println("Usage: java com.lotontech.mail.SimpleSender"
+       +" smtpServer toAddress fromAddress subjectText bodyText");
+    }
+    System.exit(0);
+  }

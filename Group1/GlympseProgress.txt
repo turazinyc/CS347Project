@@ -1,0 +1,9 @@
+Glympse Api
+
+Progress
+
+- Created make file
+
+- Unable to compile glympse files
+
+- Decided to use another api instead

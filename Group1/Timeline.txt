@@ -1,0 +1,20 @@
+Donald Tang, Matthew Markowitz
+
+Disclaimer: Work in Progress
+Goals:
+
+
+Week 1: 
+Figure out way to access iCloud service OR find ios location app or api online that helps us grab device location
+
+
+Week 2:
+Find a way to extract the location data from app or api so that we can manipulate the data to be more easily usable
+
+
+Week 3:
+Work with the other subgroups to determine how to format the location data 
+
+
+Week 4:
+Transfer the location data in a shared environment with the other subgroups

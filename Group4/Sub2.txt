@@ -1,0 +1,5 @@
+3/21/2017
+
+Members: Shuangchang Li, Wenkang Su.
+
+We search for skills of how to build features in Amazon echo, and try to find source code to start building alexa.
